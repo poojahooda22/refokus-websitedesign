@@ -2,7 +2,7 @@
 
 import Header from '@/components/header/Index'
 import React from 'react'
-import WorkPage from '@/components/WorkPage'
+import WorkPage from '@/components/workPage/WorkPage';
 import Cursor from "@/components/StickyCursor/Index";
 import { useRef} from 'react';
 import Stripes from '@/components/Stripes';
