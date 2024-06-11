@@ -1,0 +1,16 @@
+.cursor {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    z-index: 7;
+    pointer-events: none;     
+}
+
+@media screen and (max-width: 768px) {
+    .cursor {
+        display: none;
+    }
+}
