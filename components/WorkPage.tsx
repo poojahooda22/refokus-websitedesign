@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import {motion, useScroll, useMotionValueEvent, } from 'framer-motion'
+import gsap, { Power2, Power3 } from 'gsap'
 
 function WorkPage() {
 
@@ -12,8 +13,6 @@ function WorkPage() {
     'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0acbc45cb2f4fc5c6b2_Yahoo.png',
     'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0ac7e7179d210dc41f0_Summon.png',
     'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0af108a465002975acd_Showcase%20Websites%20(1).png'
-
-
   ]
 
   // const [images, setImages] = useState(
@@ -98,6 +97,43 @@ function WorkPage() {
           }
       }
     }
+
+    document.querySelector(".center")
+  .addEventListener("mousemove", throttleFunction((dets) => {
+    var div = document.createElement("div");
+    div.classList.add("imagediv");
+    div.style.left = dets.clientX + "px";
+    div.style.top = dets.clientY + "px";
+
+    var img = document.createElement("img");
+    img.setAttribute("src", getRandomImage());
+    div.appendChild(img);
+
+    document.body.appendChild(div);
+
+    gsap.to(img, {
+        y: "0",
+        easing: Power2,
+        duration: .6,
+    })
+
+    gsap.to(img, {
+        y: "100%",
+        delay: .6,
+        easing: Power3,
+        
+    })
+    setTimeout(function(){
+        div.remove();
+    }, 4000)
+
+
+  }, 180));
+
+  function getRandomImage() {
+    const randomIndex = Math.floor(Math.random() * images.length);
+    return images[randomIndex];
+  }
   })
 
   return (
