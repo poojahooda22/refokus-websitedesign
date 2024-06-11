@@ -140,10 +140,10 @@ function WorkPage() {
 //     };
 //     }, []);
 
-    const getRandomImage = () => {
-        const randomIndex = Math.floor(Math.random() * images.length);
-        return images[randomIndex];
-      }
+    // const getRandomImage = () => {
+    //     const randomIndex = Math.floor(Math.random() * images.length);
+    //     return images[randomIndex];
+    //   }
 
   return (
     <div className='w-full h-[85vh] sm:flex sm:items-center sm:justify-center  mb-[8vw] sm:mb-0'>
