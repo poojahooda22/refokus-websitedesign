@@ -16,6 +16,10 @@ const config: Config = {
     colors: {
       primary: '#111',
       secondary: '#fff',
+      comp: '#00ff19',
+      gray: '#29292e',
+      gray2: '#686875',
+      gray3: '#bdbbc2'
     },
     extend: {
       backgroundImage: {
