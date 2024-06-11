@@ -1,0 +1,93 @@
+.header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    z-index: 3;
+
+    .burger {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        padding: 30px;
+        cursor: pointer;
+        pointer-events: none;
+        &::before, &::after{
+            display: block;
+            content: "";
+            width: 30px;
+            position: relative;
+            height: 1px;
+            z-index: 2;
+            margin: auto;
+            mix-blend-mode: difference;
+            background-color: rgb(255, 255, 255); 
+            transition: transform 0.3s;          
+        }
+        &::after{
+            top: -5px;
+        }
+
+        &::before{
+            top: 5px;
+        }
+    }
+    .bounds {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;   
+        pointer-events: all;
+        &:hover {
+            transform: scale(3); 
+        }
+    }
+    .burgerActive{
+
+        &::after{
+            transform: rotate(45deg);
+            top: -1px;
+        }
+
+        &::before{
+            transform: rotate(-45deg);
+            top: 0px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        
+        .burger {
+            padding: 20px;
+            &::before, &::after {
+                width: 30px;
+            }
+        }
+        .bounds {
+            left: 20;
+            top: 20;
+            &:hover {
+                transform: none; // Disable hover effect on mobile
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding-right: 2.4vw;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .header {
+        padding-right: 2.4vw;
+    }
+}
