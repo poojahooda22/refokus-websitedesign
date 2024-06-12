@@ -16,7 +16,8 @@ function Card({width, toptitle, toptitle2, start, para}:
         <div className='w-full'>
             <div className='flex items-center justify-between mb-[1vw]'>
                 <p className='text-[3vw] sm:text-[.7vw]'>
-                    {toptitle}</p>
+                    {toptitle}
+                    </p>
                 <Image src='/arrow.svg' 
                     width={20} 
                     height={20} 
