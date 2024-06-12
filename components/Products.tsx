@@ -59,7 +59,6 @@ function Products() {
         {data.map((elem, index) => (
             <Product key={index} val={elem} />
         ))} 
-
         <div 
             className='absolute top-0 w-full 
             h-full pointer-events-none'
