@@ -65,7 +65,7 @@ function Products() {
                 
                 
                 
-                <div className='w-full h-full bg-comp'></div>
+                
                 <div className='w-full h-full bg-gray'></div>
 
             </div>
