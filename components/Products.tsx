@@ -48,7 +48,11 @@ function Products() {
     ]
 
     const images = [
-        
+        'https://cdn.refokus.com/website/Arqitel/Arqitel%20project%20video%204_3.webm',
+        'https://cdn.refokus.com/website/Cula_promo_new_4_3.mp4',
+        'https://cdn.refokus.com/refokus-promo/webflow-education-promo.mp4',
+        'https://cdn.refokus.com/website/Maniv-Compressed.mp4',
+        'https://cdn.refokus.com/Singularity%20Promo%204_3%202024.webm'
     ]
   return (
     <div className='hidden sm:block mt-[8vw] relative'>
