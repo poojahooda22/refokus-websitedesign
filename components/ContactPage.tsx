@@ -9,7 +9,8 @@ function ContactForm() {
           <h1 className='text-[5vw] uppercase leading-none'>Don't Be Shy with us</h1>
           <div>
             <p className='w-1/2 text-[.8vw] tracking-tight'>
-              Don’t like forms? Well, too bad! This one is connected to our CRM and makes everything 
+              Don’t like forms? Well, too bad! This one is connected 
+              to our CRM and makes everything 
               easier. Ok ok... here we go:
             </p>
             <button 
