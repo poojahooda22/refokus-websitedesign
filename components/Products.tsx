@@ -46,10 +46,14 @@ function Products() {
 
     ]
   return (
-    <div className='hidden sm:block mt-[8vw]'>
+    <div className='hidden sm:block mt-[8vw] relative'>
         {data.map((elem, index) => (
             <Product key={index} val={elem} />
-        ))}  
+        ))} 
+
+        <div className='absolute top-0 w-full h-full pointer-events-none'>
+            
+        </div> 
     </div>
   )
 }
