@@ -61,7 +61,7 @@ function Products() {
         ))} 
 
         <div 
-        className='absolute top-0 w-full 
+            className='absolute top-0 w-full 
             h-full pointer-events-none'>
             <div 
                 className='absolute w-[24vw] h-[16vw] 
