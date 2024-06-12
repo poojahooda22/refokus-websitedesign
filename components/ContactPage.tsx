@@ -8,7 +8,7 @@ function ContactForm() {
         <div className='w-1/2 min-h-[24vw] flex flex-col justify-between'>
           <h1 className='text-[5vw] uppercase leading-none'>
             Don't Be Shy with us
-            </h1>
+          </h1>
           <div>
             <p className='w-1/2 text-[.8vw] tracking-tight'>
               Don’t like forms? Well, too bad! This one is connected 
