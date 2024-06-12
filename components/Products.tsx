@@ -1,5 +1,6 @@
 import React from 'react'
 import Product from './Product'
+import Image from 'next/image'
 
 function Products() {
     const data = [
@@ -45,6 +46,10 @@ function Products() {
         },
 
     ]
+
+    const images = [
+        
+    ]
   return (
     <div className='hidden sm:block mt-[8vw] relative'>
         {data.map((elem, index) => (
@@ -52,7 +57,16 @@ function Products() {
         ))} 
 
         <div className='absolute top-0 w-full h-full pointer-events-none'>
-            
+            <div className='absolute w-[24vw] h-[16vw] bg-gray3 left-[45%] -translate-x-1/2'>
+
+                <div className='w-full h-full bg-gray'>
+                </div>
+                <div className='w-full h-full bg-gray2'></div>
+                <div className='w-full h-full bg-gray3'></div>
+                <div className='w-full h-full bg-comp'></div>
+                <div className='w-full h-full bg-gray'></div>
+
+            </div>
         </div> 
     </div>
   )
