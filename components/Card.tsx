@@ -11,8 +11,7 @@ function Card({width, toptitle, toptitle2, start, para}:
             bg-gray rounded-lg sm:rounded-3xl
             py-[4vw] px-[4vw]
             sm:py-[1vw] sm:px-[1vw]
-            flex flex-col justify-between`
-    }
+            flex flex-col justify-between` }
     >
         <div className='w-full'>
             <div className='flex items-center justify-between mb-[1vw]'>
