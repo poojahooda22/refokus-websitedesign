@@ -60,7 +60,8 @@ function Products() {
             <Product key={index} val={elem} />
         ))} 
 
-        <div className='absolute top-0 w-full h-full pointer-events-none'>
+        <div className='absolute top-0 w-full 
+        h-full pointer-events-none'>
             <div 
                 className='absolute w-[24vw] h-[16vw] 
                 bg-gray3 left-[45%] -translate-x-1/2 
