@@ -22,7 +22,7 @@ function Card({width, toptitle, toptitle2, start, para}:
                     height={20} 
                     alt="" 
                     className='w-[4vw] sm:w-[1vw]' 
-                    />
+                />
             </div>
             <div className='w-1/2 pt-[2vw] sm:pt-0'>
                 <h3 className='text-[4.6vw] font-regular sm:text-[1.2vw] '>{toptitle2}</h3>
