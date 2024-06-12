@@ -19,7 +19,8 @@ function Card({width, toptitle, toptitle2, start, para}:
                 <p className='text-[3vw] sm:text-[.7vw]'>{toptitle}</p>
                 <Image src='/arrow.svg' 
                     width={20} 
-                    height={20} alt="" className='w-[4vw] sm:w-[1vw]' />
+                    height={20} 
+                    alt="" className='w-[4vw] sm:w-[1vw]' />
             </div>
             <div className='w-1/2 pt-[2vw] sm:pt-0'>
                 <h3 className='text-[4.6vw] font-regular sm:text-[1.2vw] '>{toptitle2}</h3>
