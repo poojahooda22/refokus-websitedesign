@@ -71,8 +71,7 @@ function Products() {
                         loop
                         muted
                     /> 
-                ))} 
-                
+                ))}              
 
             </div>
         </div> 
