@@ -7,7 +7,7 @@ function Card({width, toptitle, toptitle2, start, para}:
     ) {
   return (
     <div 
-        className={` ${width} min-h-[80vw] sm:min-h-[24vw] 
+        className={`${width} min-h-[80vw] sm:min-h-[24vw] 
             bg-gray rounded-lg sm:rounded-3xl
             py-[4vw] px-[4vw]
             sm:py-[1vw] sm:px-[1vw]
