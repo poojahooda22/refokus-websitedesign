@@ -87,16 +87,16 @@ function WorkPage() {
   // })
 
   useEffect(() => {
-    const throttleFunction = (func: any, delay: number) => {
-      let prev = 0;
-      return (...args: any) => {
-          let now = new Date().getTime();
-          if(now - prev > delay) {
-              prev  = now;
-              return func(...args);
-          }
-      }
-    }
+    // const throttleFunction = (func: any, delay: number) => {
+    //   let prev = 0;
+    //   return (...args: any) => {
+    //       let now = new Date().getTime();
+    //       if(now - prev > delay) {
+    //           prev  = now;
+    //           return func(...args);
+    //       }
+    //   }
+    // }
 
   //   document.querySelector(".center")
   // .addEventListener("mousemove", throttleFunction((dets) => {
