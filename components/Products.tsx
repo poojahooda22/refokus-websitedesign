@@ -64,7 +64,7 @@ function Products() {
             <div className='absolute w-[24vw] h-[16vw] bg-gray3 left-[45%] -translate-x-1/2'>
                 
                 
-                <div className='w-full h-full '></div>
+                
                 <div className='w-full h-full bg-comp'></div>
                 <div className='w-full h-full bg-gray'></div>
 
