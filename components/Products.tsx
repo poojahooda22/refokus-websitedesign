@@ -63,7 +63,17 @@ function Products() {
         <div className='absolute top-0 w-full h-full pointer-events-none'>
             <div className='absolute w-[24vw] h-[16vw] bg-gray3 left-[45%] -translate-x-1/2'>
                 
+                {images.map((elem, index) => (
+                    <Image 
+                        key={index}
+                        src={elem}
+                        className='w-full h-full'
+                        width={1000}
+                        height={100}
+                        alt="image"
+                    />
                 
+                ))}
                 
                 
                 
