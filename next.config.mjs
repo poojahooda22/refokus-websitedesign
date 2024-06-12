@@ -2,7 +2,7 @@
 const nextConfig = {
     reactStrictMode: true,
     images: {
-      domains: ['assets-global.website-files.com'],
+      domains: ['assets-global.website-files.com', 'cdn.refokus.com'],
     }, 
 };
 
