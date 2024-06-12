@@ -86,7 +86,7 @@ function WorkPage() {
   //   }
   // })
 
-  useEffect(() => {
+  // useEffect(() => {
     // const throttleFunction = (func: any, delay: number) => {
     //   let prev = 0;
     //   return (...args: any) => {
