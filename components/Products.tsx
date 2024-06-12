@@ -60,7 +60,8 @@ function Products() {
             <Product key={index} val={elem} />
         ))} 
 
-        <div className='absolute top-0 w-full 
+        <div 
+        className='absolute top-0 w-full 
             h-full pointer-events-none'>
             <div 
                 className='absolute w-[24vw] h-[16vw] 
