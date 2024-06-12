@@ -72,7 +72,6 @@ function Products() {
                         muted
                     /> 
                 ))}              
-
             </div>
         </div> 
     </div>
