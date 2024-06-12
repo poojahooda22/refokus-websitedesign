@@ -130,10 +130,10 @@ function WorkPage() {
 
   }, 180));
 
-  function getRandomImage() {
-    const randomIndex = Math.floor(Math.random() * images.length);
-    return images[randomIndex];
-  }
+  // function getRandomImage() {
+  //   const randomIndex = Math.floor(Math.random() * images.length);
+  //   return images[randomIndex];
+  // }
   })
 
   return (
