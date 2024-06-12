@@ -98,37 +98,37 @@ function WorkPage() {
       }
     }
 
-    document.querySelector(".center")
-  .addEventListener("mousemove", throttleFunction((dets) => {
-    var div = document.createElement("div");
-    div.classList.add("imagediv");
-    div.style.left = dets.clientX + "px";
-    div.style.top = dets.clientY + "px";
+  //   document.querySelector(".center")
+  // .addEventListener("mousemove", throttleFunction((dets) => {
+  //   var div = document.createElement("div");
+  //   div.classList.add("imagediv");
+  //   div.style.left = dets.clientX + "px";
+  //   div.style.top = dets.clientY + "px";
 
-    var img = document.createElement("img");
-    img.setAttribute("src", getRandomImage());
-    div.appendChild(img);
+  //   var img = document.createElement("img");
+  //   img.setAttribute("src", getRandomImage());
+  //   div.appendChild(img);
 
-    document.body.appendChild(div);
+  //   document.body.appendChild(div);
 
-    gsap.to(img, {
-        y: "0",
-        easing: Power2,
-        duration: .6,
-    })
+  //   gsap.to(img, {
+  //       y: "0",
+  //       easing: Power2,
+  //       duration: .6,
+  //   })
 
-    gsap.to(img, {
-        y: "100%",
-        delay: .6,
-        easing: Power3,
+  //   gsap.to(img, {
+  //       y: "100%",
+  //       delay: .6,
+  //       easing: Power3,
         
-    })
-    setTimeout(function(){
-        div.remove();
-    }, 4000)
+  //   })
+  //   setTimeout(function(){
+  //       div.remove();
+  //   }, 4000)
 
 
-  }, 180));
+  // }, 180));
 
   // function getRandomImage() {
   //   const randomIndex = Math.floor(Math.random() * images.length);
