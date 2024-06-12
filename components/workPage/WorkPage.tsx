@@ -86,63 +86,63 @@ function WorkPage() {
   //   }
   // })
 
-  useEffect(() => {
-    const throttleFunction = (func: (...args: any[]) => void, delay: number) => {
-      let prev = 0;
-      return (...args: any[]) => {
-        let now = new Date().getTime();
-        if (now - prev > delay) {
-          prev = now;
-          return func(...args);
-        }
-      }
-    }
+  // useEffect(() => {
+  //   const throttleFunction = (func: (...args: any[]) => void, delay: number) => {
+  //     let prev = 0;
+  //     return (...args: any[]) => {
+  //       let now = new Date().getTime();
+  //       if (now - prev > delay) {
+  //         prev = now;
+  //         return func(...args);
+  //       }
+  //     }
+  //   }
 
-    const handleMouseMove = throttleFunction((e: MouseEvent) => {
-      const div = document.createElement('div');
-      div.classList.add('imagediv');
-      div.style.left = `${e.clientX}px`;
-      div.style.top = `${e.clientY}px`;
+  //   const handleMouseMove = throttleFunction((e: MouseEvent) => {
+  //     const div = document.createElement('div');
+  //     div.classList.add('imagediv');
+  //     div.style.left = `${e.clientX}px`;
+  //     div.style.top = `${e.clientY}px`;
 
-      const img = document.createElement('img');
-      img.setAttribute('src', getRandomImage());
-      div.appendChild(img);
+  //     const img = document.createElement('img');
+  //     img.setAttribute('src', getRandomImage());
+  //     div.appendChild(img);
 
-      document.body.appendChild(div);
+  //     document.body.appendChild(div);
 
-      gsap.to(img, {
-        y: '0',
-        easing: Power2,
-        duration: 0.6,
-      });
+  //     gsap.to(img, {
+  //       y: '0',
+  //       easing: Power2,
+  //       duration: 0.6,
+  //     });
 
-      gsap.to(img, {
-        y: '100%',
-        delay: 0.6,
-        eas: Power3,
-      });
+  //     gsap.to(img, {
+  //       y: '100%',
+  //       delay: 0.6,
+  //       eas: Power3,
+  //     });
 
-      setTimeout(() => {
-        div.remove();
-      }, 4000);
-    }, 180);
+  //     setTimeout(() => {
+  //       div.remove();
+  //     }, 4000);
+  //   }, 180);
 
-    const centerDiv = document.querySelector('.center');
-    if (centerDiv) {
-      centerDiv.addEventListener('mousemove', handleMouseMove);
-    }
+  //   const centerDiv = document.querySelector('.center');
+  //   if (centerDiv) {
+  //     centerDiv.addEventListener('mousemove', handleMouseMove);
+  //   }
 
-    return () => {
-      if (centerDiv) {
-        centerDiv.removeEventListener('mousemove', handleMouseMove);
-      }
-    };
-    }, []);
+  //   return () => {
+  //     if (centerDiv) {
+  //       centerDiv.removeEventListener('mousemove', handleMouseMove);
+  //     }
+  //   };
+  //   }, []);
 
-    const getRandomImage = () => {
-        const randomIndex = Math.floor(Math.random() * images.length);
-        return images[randomIndex];
-      }
+  //   const getRandomImage = () => {
+  //       const randomIndex = Math.floor(Math.random() * images.length);
+  //       return images[randomIndex];
+  //     }
 
   return (
     <div className='w-full h-[85vh] sm:flex sm:items-center sm:justify-center  mb-[8vw] sm:mb-0'>
