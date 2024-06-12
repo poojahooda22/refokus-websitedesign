@@ -34,13 +34,13 @@ export default function Index({stickyElement}: any) {
     const { left, top, width, height } = stickyElement.current.getBoundingClientRect();
 
     const center = {x: left + width / 2, y: top + height / 2};
-    const distance = { x: clientX - center.x, y: clientY - center.y };
+    
 
     if(isHovered) {
 
+      const distance = { x: clientX - center.x, y: clientY - center.y };
       //rotation
       rotate(distance)
-
       //stretch the cursor based on the distance between the pointer and the custom cursor
       const absDistance = Math.max(Math.abs(distance.x), Math.abs(distance.y));
       const newScaleX = transform(absDistance, [0, height/2], [1, 1.3])
@@ -63,7 +63,7 @@ export default function Index({stickyElement}: any) {
   }
   const manageMouseLeave = e => {
     setIsHovered(false);
-    animate(cursorRef.current, { scaleX: 1, scaleY: 1 }, {duration: 0.1}, {type: "spring"})
+    animate(cursorRef.current, { scaleX: 1, scaleY: 1 }, {duration: 0.1}, { type: "spring" })
   }
 
   useEffect( () => {
