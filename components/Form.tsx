@@ -12,7 +12,7 @@ function Form() {
             />
         </div>
         <div>
-            <h4></h4>
+            <h4>Company</h4>
         </div>
     </div>
   )
