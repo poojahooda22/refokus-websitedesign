@@ -13,6 +13,7 @@ function Form() {
         </div>
         <div>
             <h4>Company</h4>
+            <input/>
         </div>
     </div>
   )
