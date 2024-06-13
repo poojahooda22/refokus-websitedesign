@@ -14,7 +14,7 @@ function Form() {
         <div>
             <h4>Company</h4>
             <input
-               type="" 
+               type="text" 
             />
         </div>
     </div>
