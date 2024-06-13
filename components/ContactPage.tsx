@@ -5,7 +5,7 @@ import Form from './Form'
 function ContactForm() {
   return (
     <div className='w-full relative'>
-      <div className='max-w-screen-xl mx-auto pt-[8vw]'>
+      <div className='max-w-screen-xl mx-auto pt-[8vw] flex '>
         <div className='w-1/2 min-h-[24vw] flex flex-col justify-between'>
           <h1 className='text-[5vw] uppercase leading-none'>
             Don't Be Shy with us
@@ -25,11 +25,12 @@ function ContactForm() {
               hello@refokus.com  
             </button>
           </div>  
+          <div className=' mt-[6vw]'>
+          <Faq /> 
+          </div>
         </div>
 
-        <div className='w-1/2 mt-[6vw]'>
-          <Faq /> 
-        </div>
+        
         {/* //form */}
         <div>
           <Form />
