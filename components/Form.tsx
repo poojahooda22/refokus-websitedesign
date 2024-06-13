@@ -12,6 +12,14 @@ function Form() {
                     className='w-full text-white p-4 rounded-xl'
                 />
             </div>
+            <div>
+                <h4>Company</h4>
+                <input
+                type="text"
+                placeholder=''
+                className='w-full' 
+                />
+            </div>
         </div>
         
     </div>
