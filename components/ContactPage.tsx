@@ -30,7 +30,7 @@ function ContactForm() {
           </div>
         </div>
         {/* //form */}
-        <div className=''>
+        <div className='w-1/2'>
           <Form />
         </div>
       </div>
