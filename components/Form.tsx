@@ -13,7 +13,7 @@ function Form() {
                 />
             </div>
             <div>
-                <h4>Company</h4>
+                <h4 className='mb-[.4vw]'>Company</h4>
                 <input
                 type="text"
                 placeholder=''
