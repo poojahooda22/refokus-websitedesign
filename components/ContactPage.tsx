@@ -1,5 +1,6 @@
 import React from 'react'
 import Faq from './Faq'
+import Form from './Form'
 
 function ContactForm() {
   return (
@@ -31,7 +32,7 @@ function ContactForm() {
         </div>
         {/* //form */}
         <div>
-          
+          <Form />
         </div>
       </div>
     </div>
