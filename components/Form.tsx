@@ -4,7 +4,9 @@ function Form() {
   return (
     <div className='w-[100%] h-[20vw] bg-black rounded-xl'>
         <div>
-            
+            <div>
+                
+            </div>
         </div>
         <div>
             <h4>Company</h4>
