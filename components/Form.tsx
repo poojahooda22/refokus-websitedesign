@@ -9,7 +9,7 @@ function Form() {
                 <input
                     type="text"
                     placeholder="Name"
-                    className='w-full text-white p-4 rounded-xl'
+                    className='w-full bg-gray4 p-4 rounded-xl'
                 />
             </div>
             <div>
@@ -17,7 +17,7 @@ function Form() {
                 <input
                 type="text"
                 placeholder=''
-                className='w-full text-white p-4 rounded-xl' 
+                className='w-full  p-4 rounded-xl' 
                 />
             </div>
         </div>
