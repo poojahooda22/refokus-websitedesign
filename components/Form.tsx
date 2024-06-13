@@ -13,14 +13,7 @@ function Form() {
                 />
             </div>
         </div>
-        <div>
-            <h4>Company</h4>
-            <input
-               type="text"
-               placeholder=''
-               className='w-full' 
-            />
-        </div>
+        
     </div>
   )
 }
