@@ -11,7 +11,7 @@ function Cards() {
                     toptitle2='Insights and behind the scenes'
                     start={false} 
                     para={true}
-                    
+                
                 />
                 <Card 
                     width="sm:w-2/3" 
