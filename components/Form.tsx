@@ -16,7 +16,7 @@ function Form() {
             <input
                type="text"
                placeholder=''
-               className='' 
+               className='w-full' 
             />
         </div>
     </div>
