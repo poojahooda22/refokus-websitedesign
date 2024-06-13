@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form() {
   return (
-    <div className='w-[100%] h-[20vw] bg-black rounded-xl py-[2vw]'>
+    <div className='w-[100%] h-[20vw] bg-black rounded-xl py-[2vw] px-[2vw]'>
         <div className='flex'>
             <div>
                 <h4 className='text-[.7vw]'>Full Name</h4>
