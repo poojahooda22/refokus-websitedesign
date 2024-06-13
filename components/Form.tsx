@@ -3,7 +3,7 @@ import React from 'react'
 function Form() {
   return (
     <div className='w-[100%] h-[20vw] bg-black rounded-xl'>
-        <div className=''>
+        <div className='flex'>
             <div>
                 <h4>Full Name</h4>
                 <input
