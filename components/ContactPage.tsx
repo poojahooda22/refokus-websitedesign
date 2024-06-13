@@ -29,10 +29,8 @@ function ContactForm() {
           <Faq /> 
           </div>
         </div>
-
-        
         {/* //form */}
-        <div>
+        <div className=''>
           <Form />
         </div>
       </div>
