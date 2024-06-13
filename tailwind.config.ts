@@ -14,7 +14,7 @@ const config: Config = {
       xl: '1840px',
     },
     colors: {
-      primary: '#111',
+      primary: '#050505',
       secondary: '#fff',
       comp: '#00ff19',
       gray: '#29292e',
