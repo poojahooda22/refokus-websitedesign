@@ -5,7 +5,7 @@ function Form() {
     <div className='w-[100%] h-[20vw] bg-black rounded-xl py-[1vw] px-[0vw]'>
         <div className='flex justify-evenly'>
             <div>
-                <h4 className='text-[.7vw]'>Full Name</h4>
+                <h4 className='text-[.7vw] mb-[.4vw]'>Full Name</h4>
                 <input
                     type="text"
                     placeholder=""
