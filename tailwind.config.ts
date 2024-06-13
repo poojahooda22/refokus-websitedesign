@@ -20,7 +20,8 @@ const config: Config = {
       gray: '#29292e',
       gray2: '#686875',
       gray3: '#bdbbc2',
-      black: '#0f0f0f'
+      black: '#0f0f0f',
+      gray4: '#323238'
     },
     extend: {
       backgroundImage: {
