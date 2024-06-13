@@ -25,7 +25,7 @@ function Cards() {
                 justify-between sm:mt-[2vw] mt-[6vw]'
             >
                 <div 
-                className='hidden w-full sm:flex 
+                    className='hidden w-full sm:flex 
                     items-center gap-2 sm:text-[.8vw] 
                     text-gray3'
                 >
