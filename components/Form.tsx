@@ -55,8 +55,7 @@ function Form() {
                     className='w-full bg-gray4 p-4 rounded-xl'
                     placeholder='Message'
                 ></textarea>
-            </div>
-            
+            </div>   
         </div>
         
         
