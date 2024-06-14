@@ -4,7 +4,7 @@ function Form() {
   return (
     <div className='w-[100%] min-h-[20vw] bg-black rounded-xl py-[1.5vw] px-[1.5vw]'>
         <div className=''>
-            <div className='flex justify-between mb-[1vw] text-gray3'>
+            <div className='flex justify-between text-gray3'>
                 <div>
                     <h4 className='text-[.7vw] mb-[.4vw]'>Full Name</h4>
                     <input
