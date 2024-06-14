@@ -37,8 +37,7 @@ function Form() {
             <h4 className='text-[.7vw] mb-[.4vw]'>Budget</h4>
             <select
                 name="budget"
-                id="budget"
-                
+                id="budget"   
                 className='w-full bg-gray4 p-4 rounded-xl' 
             />
         </div>
