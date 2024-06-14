@@ -45,17 +45,17 @@ function Form() {
                     <option value="200000+">$100,000 above </option>
                 </select>
             </div>
-        <div className='text-gray3'>
-            <h4 className='text-[.7vw] mb-[.4vw]'>What's on your mind</h4>
-            <textarea
-                name="message"
-                id="message"
-                cols={30}
-                rows={10}
-                className='w-full bg-gray4 p-4 rounded-xl'
-                placeholder='Message'
-            ></textarea>
-        </div>
+            <div className='text-gray3'>
+                <h4 className='text-[.7vw] mb-[.4vw]'>What's on your mind</h4>
+                <textarea
+                    name="message"
+                    id="message"
+                    cols={30}
+                    rows={10}
+                    className='w-full bg-gray4 p-4 rounded-xl'
+                    placeholder='Message'
+                ></textarea>
+            </div>
             
         </div>
         
