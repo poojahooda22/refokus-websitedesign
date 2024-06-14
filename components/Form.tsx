@@ -6,7 +6,7 @@ function Form() {
         <div className=''>
             <div className='flex'>
                 <div>
-                <h4 className='text-[.7vw] mb-[.4vw]'>Full Name</h4>
+                    <h4 className='text-[.7vw] mb-[.4vw]'>Full Name</h4>
                 <input
                     type="text"
                     placeholder=""
