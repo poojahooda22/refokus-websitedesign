@@ -41,6 +41,7 @@ function Form() {
                 className='w-full bg-gray4 p-4 rounded-xl' 
             >
                 <option value="30000-50000">$30,000 to $50,000</option>
+                <option value="50000-100000">$50,000 to $100,000</option>
         
             </select>
         </div>
