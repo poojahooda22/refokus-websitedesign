@@ -3,7 +3,7 @@ import React from 'react'
 function Form() {
   return (
     <div className='w-[100%] min-h-[20vw] bg-black rounded-xl py-[1.5vw] px-[1.5vw]'>
-        <div className=''>
+        <div className=' flex flex-col gap-[1vw]'>
             <div className='flex justify-between text-gray3'>
                 <div>
                     <h4 className='text-[.7vw] mb-[.4vw]'>Full Name</h4>
@@ -23,29 +23,28 @@ function Form() {
                     />
                 </div>
             </div>
-            
-        </div>
-        <div className='text-gray3'>
-            <h4 className='text-[.7vw] mb-[.4vw]'>Email address</h4>
-            <input
-                type="text"
-                placeholder=''
-                className='w-full bg-gray4 p-4 rounded-xl' 
-            />
-        </div>
-        <div className='text-gray3'>
-            <h4 className='text-[.7vw] mb-[.4vw]'>Budget</h4>
-            <select
-                name="budget"
-                id="budget"   
-                className='w-full bg-gray4 p-4 rounded-xl ' 
-            >
-                <option value="30000-50000">Select one...</option>
-                <option value="50000-100000">$20,000 to $40,000</option>
-                <option value="100000-200000">$50,000 to $100,000</option>
-                <option value="200000+">$100,000 above </option>
-            </select>
-        </div>
+
+            <div className='text-gray3'>
+                <h4 className='text-[.7vw] mb-[.4vw]'>Email address</h4>
+                <input
+                    type="text"
+                    placeholder=''
+                    className='w-full bg-gray4 p-4 rounded-xl' 
+                />
+            </div>
+            <div className='text-gray3'>
+                <h4 className='text-[.7vw] mb-[.4vw]'>Budget</h4>
+                <select
+                    name="budget"
+                    id="budget"   
+                    className='w-full bg-gray4 p-4 rounded-xl ' 
+                >
+                    <option value="30000-50000">Select one...</option>
+                    <option value="50000-100000">$20,000 to $40,000</option>
+                    <option value="100000-200000">$50,000 to $100,000</option>
+                    <option value="200000+">$100,000 above </option>
+                </select>
+            </div>
         <div className='text-gray3'>
             <h4 className='text-[.7vw] mb-[.4vw]'>What's on your mind</h4>
             <textarea
@@ -57,6 +56,9 @@ function Form() {
                 placeholder='Message'
             ></textarea>
         </div>
+            
+        </div>
+        
         
     </div>
   )
