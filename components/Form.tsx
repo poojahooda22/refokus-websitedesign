@@ -33,6 +33,14 @@ function Form() {
                 className='w-full bg-gray4 p-4 rounded-xl' 
             />
         </div>
+        <div>
+            <h4 className='text-[.7vw] mb-[.4vw]'>Email address</h4>
+            <input
+                type="text"
+                placeholder=''
+                className='w-full bg-gray4 p-4 rounded-xl' 
+            />
+        </div>
         
     </div>
   )
