@@ -25,7 +25,7 @@ function Form() {
             </div>
             
         </div>
-        <div>
+        <div className='text-gray3'>
             <h4 className='text-[.7vw] mb-[.4vw]'>Email address</h4>
             <input
                 type="text"
