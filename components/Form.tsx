@@ -47,7 +47,7 @@ function Form() {
             </select>
         </div>
         <div>
-            
+        <h4 className='text-[.7vw] mb-[.4vw]'>Budget</h4>
             <textarea
                 name="message"
                 id="message"
