@@ -39,7 +39,10 @@ function Form() {
                 name="budget"
                 id="budget"   
                 className='w-full bg-gray4 p-4 rounded-xl' 
-            />
+            >
+                <option value="30000-50000">$30,000 to $50,000</option>
+        
+            </select>
         </div>
         
     </div>
