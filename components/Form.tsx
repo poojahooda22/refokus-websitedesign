@@ -55,7 +55,16 @@ function Form() {
                     className='w-full bg-gray4 p-4 rounded-xl'
                     placeholder='Message'
                 ></textarea>
-            </div>   
+            </div>
+
+            <button 
+                className='text-[3vw] sm:text-[.8vw]
+                py-[3vw] px-[5vw] sm:px-[1.3vw] mt-[4vw]
+                sm:py-[.5vw] rounded-full sm:mt-[1.5vw] 
+                border-[1px] border-secondary'
+              >
+                Send Message  
+              </button>   
         </div>    
     </div>
   )
