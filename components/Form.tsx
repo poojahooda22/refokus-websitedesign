@@ -46,6 +46,9 @@ function Form() {
                 <option value="200000+">$100,000 above </option>
             </select>
         </div>
+        <div>
+            <input
+        </div>
         
     </div>
   )
