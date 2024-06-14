@@ -19,7 +19,7 @@ function Form() {
                         type="text"
                         placeholder=''
                         className='w-full bg-gray4 p-4 rounded-xl' 
-                />
+                    />
                 </div>
             </div>
             
