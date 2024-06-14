@@ -34,7 +34,7 @@ function Form() {
             />
         </div>
         <div className='mt-[1vw]'>
-            <h4 className='text-[.7vw] mb-[.4vw]'></h4>
+            <h4 className='text-[.7vw] mb-[.4vw]'>Budget</h4>
             <input
                 type="text"
                 placeholder=''
