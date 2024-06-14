@@ -46,7 +46,7 @@ function Form() {
                 <option value="200000+">$100,000 above </option>
             </select>
         </div>
-        <div>
+        <div className='text-gray3'>
             <h4 className='text-[.7vw] mb-[.4vw]'>Budget</h4>
             <textarea
                 name="message"
