@@ -56,9 +56,7 @@ function Form() {
                     placeholder='Message'
                 ></textarea>
             </div>   
-        </div>
-        
-        
+        </div>    
     </div>
   )
 }
