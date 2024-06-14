@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form() {
   return (
-    <div className='w-[100%] h-[20vw] bg-black rounded-xl py-[1.5vw] px-[2vw]'>
+    <div className='w-[100%] h-[20vw] bg-black rounded-xl py-[1.5vw] px-[1.5vw]'>
         <div className=''>
             <div className='flex justify-between'>
                 <div>
