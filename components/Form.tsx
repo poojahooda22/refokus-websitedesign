@@ -47,7 +47,14 @@ function Form() {
             </select>
         </div>
         <div>
-            <input
+            <textarea
+                name="message"
+                id="message"
+                cols={30}
+                rows={10}
+                className='w-full bg-gray4 p-4 rounded-xl mt-[1vw]'
+                placeholder='Message'
+            ></textarea>
         </div>
         
     </div>
