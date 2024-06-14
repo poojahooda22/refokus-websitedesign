@@ -12,7 +12,7 @@ function Form() {
                     className='w-full bg-gray4 p-4 rounded-xl'
                 />
                 <div>
-                <h4 className='text-[.7vw] mb-[.4vw]'>Company</h4>
+                    <h4 className='text-[.7vw] mb-[.4vw]'>Company</h4>
                 <input
                 type="text"
                 placeholder=''
