@@ -7,7 +7,7 @@ function ContactForm() {
     <div className='w-full relative'>
       <div className='max-w-screen-xl mx-auto pt-[8vw] flex justify-between'>
         <div className='w-1/2'>
-          <div className='w-full min-h-[20vw] flex flex-col justify-between bg-gray'>
+          <div className='w-full min-h-[20vw] flex flex-col justify-between '>
             <h1 className='text-[5vw] uppercase leading-none'>
               Don't Be Shy with us
             </h1>
