@@ -43,7 +43,7 @@ function Form() {
                 <option value="30000-50000">$30,000 to $50,000</option>
                 <option value="50000-100000">$50,000 to $100,000</option>
                 <option value="100000-200000">$100,000 to $200,000</option>
-                <option value="200000+">$200,000+</option>
+                <option value="200000+">$200,000 </option>
             </select>
         </div>
         
