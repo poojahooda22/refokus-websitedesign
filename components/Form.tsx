@@ -33,7 +33,7 @@ function Form() {
                 className='w-full bg-gray4 p-4 rounded-xl' 
             />
         </div>
-        <div className='mt-[1vw]'>
+        <div className=''>
             <h4 className='text-[.7vw] mb-[.4vw]'>Budget</h4>
             <select
                 name="budget"
