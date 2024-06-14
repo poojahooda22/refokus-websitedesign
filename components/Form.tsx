@@ -53,7 +53,7 @@ function Form() {
                 id="message"
                 cols={30}
                 rows={10}
-                className='w-full bg-gray4 p-4 rounded-xl mt-[1vw]'
+                className='w-full bg-gray4 p-4 rounded-xl'
                 placeholder='Message'
             ></textarea>
         </div>
