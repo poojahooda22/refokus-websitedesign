@@ -7,7 +7,7 @@ function Form() {
             <div className='flex'>
                 <div>
                     <h4 className='text-[.7vw] mb-[.4vw]'>Full Name</h4>
-                <input
+                    <input
                     type="text"
                     placeholder=""
                     className='w-full bg-gray4 p-4 rounded-xl'
