@@ -2,7 +2,7 @@ import React from 'react'
 
 function Form() {
   return (
-    <div className='w-[100%] min-h-[20vw] bg-black rounded-xl py-[1.5vw] px-[1.5vw]'>
+    <div className='w-[100%] min-h-[20vw] bg-black rounded-xl px-[2.5vw] sm:py-[1.5vw] sm:px-[1.5vw]'>
         <div className=' flex flex-col gap-[1vw]'>
             <div className='flex justify-between text-gray3'>
                 <div>
