@@ -78,7 +78,8 @@ function Products() {
                 overflow-hidden rounded-xl'
             >   
                 {images.map((elem, index) => (
-                    <div key={index} className='w-full overflow-hidden'>
+                    <motion.div key={index} 
+                    className='w-full overflow-hidden'>
                         <video 
                         src={elem}
                         className='w-full h-full object-cover'
@@ -86,7 +87,7 @@ function Products() {
                         loop
                         muted
                         />
-                    </div>
+                    </motion.div>
                      
                 ))}              
             </motion.div>
