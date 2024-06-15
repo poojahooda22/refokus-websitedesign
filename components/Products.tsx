@@ -57,7 +57,7 @@ function Products() {
     ]
 
     const [pos, setPos] = useState(0);
-    const mover = (val: any) => {
+    const mover = (val: number) => {
         setPos(val * 16);
     }
 
@@ -73,7 +73,7 @@ function Products() {
             <motion.div 
                 initial={{ y:  pos, x: '-50%'}}
                 animate={{ y: pos + `vw`}}
-                transition={{ease: [0.76, 0, 0, 0.24, 1], duration: .6}}
+                transition={{ease: [0.76, 0, 0.24, 1], duration: .6}}
                 className='absolute w-[24vw] h-[16vw] 
                 bg-gray3 left-[45%] -translate-x-1/2 
                 overflow-hidden rounded-2xl'
@@ -81,6 +81,7 @@ function Products() {
                 {images.map((elem, index) => (
                     <motion.div key={index} 
                         animate={{ y: -pos + `vw`}}
+                        transition={{ease: [0.76, 0, 0.24, 1], duration: .6}}
                         className='w-full h-full overflow-hidden'>
                         <video 
                         src={elem}
