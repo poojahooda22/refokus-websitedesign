@@ -1,12 +1,19 @@
 import React from 'react'
 import Button from './button/Button'
 
-function Product({val}: {val: any}) {
+function Product({val, mover}: {val: any, mover: any}) {
+
+
+  const handleMouseEnter = (e: React.MouseEvent<HTMLDivElement>) => {
+    e.currentTarget.style.backgroundColor = val.bg;
+    mover();
+  };
+
   return (
     <div 
       className={`w-full py-5 h-[16vw] transition-transform`}
       style={{ transition: 'background-color 0.3s ease' }}
-      onMouseEnter={(e) => e.currentTarget.style.backgroundColor = val.bg}
+      onMouseEnter={handleMouseEnter}
       onMouseLeave={(e) => e.currentTarget.style.backgroundColor = 'initial'}
     >
       <div className='prodtAnim max-w-screen-xl mx-auto  flex items-center justify-between py-[2vw]'>
