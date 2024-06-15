@@ -1,12 +1,12 @@
 import React from 'react'
 import Button from './button/Button'
 
-function Product({val, mover}: {val: any, mover: any}) {
+function Product({val, mover, count}: {val: any, mover: any, count: any}) {
 
 
   const handleMouseEnter = (e: React.MouseEvent<HTMLDivElement>) => {
     e.currentTarget.style.backgroundColor = val.bg;
-    mover();
+    mover(count);
   };
 
   return (
