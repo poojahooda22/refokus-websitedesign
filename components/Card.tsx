@@ -7,7 +7,7 @@ function Card({width, toptitle, toptitle2, start, para, hover="false"}:
     {width: string, toptitle: string, toptitle2?: string, start?: boolean, para?: boolean, hover?: boolean}
     ) {
   return (
-    <div 
+    <motion.div 
         className={`${width} min-h-[80vw] sm:min-h-[24vw] 
             bg-gray rounded-lg sm:rounded-3xl
             py-[4vw] px-[4vw]
@@ -61,7 +61,7 @@ function Card({width, toptitle, toptitle2, start, para, hover="false"}:
                 </p>      
             }        
         </div>
-    </div>
+    </motion.div>
   )
 }
 
