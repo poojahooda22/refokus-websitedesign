@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-
+import { motion } from 'framer-motion'
 
 function Card({width, toptitle, toptitle2, start, para, hover="false"}: 
     {width: string, toptitle: string, toptitle2?: string, start?: boolean, para?: boolean, hover?: boolean}
