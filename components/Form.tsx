@@ -6,7 +6,7 @@ function Form() {
         <div className=' flex flex-col gap-[5vw] sm:gap-[1vw]'>
             <div className='flex gap-[4vw] sm:justify-between text-gray3'>
                 <div>
-                    <h4 className='text-[3vw] sm:text-[.7vw] mb-[.4vw]'>Full Name</h4>
+                    <h4 className='text-[3vw] sm:text-[.7vw] mb-[2vw] sm:mb-[.4vw]'>Full Name</h4>
                     <input
                         type="text"
                         placeholder=""
@@ -14,7 +14,7 @@ function Form() {
                     />
                 </div>
                 <div>
-                    <h4 className='text-[3vw] sm:text-[.7vw] mb-[.4vw]'>Company</h4>
+                    <h4 className='text-[3vw] sm:text-[.7vw] mb-[2vw] sm:mb-[.4vw]'>Company</h4>
                     <input
                         type="text"
                         placeholder=''
@@ -25,7 +25,7 @@ function Form() {
             </div>
 
             <div className='text-gray3'>
-                <h4 className='text-[3vw] sm:text-[.7vw] mb-[.4vw]'>Email address</h4>
+                <h4 className='text-[3vw] sm:text-[.7vw] mb-[2vw] sm:mb-[.4vw]'>Email address</h4>
                 <input
                     type="text"
                     placeholder=''
@@ -33,7 +33,7 @@ function Form() {
                 />
             </div>
             <div className='text-gray3'>
-                <h4 className='text-[3vw] sm:text-[.7vw] mb-[.4vw]'>Your budget</h4>
+                <h4 className='text-[3vw] sm:text-[.7vw] mb-[2vw] sm:mb-[.4vw]'>Your budget</h4>
                 <select
                     name="budget"
                     id="budget"   
@@ -46,7 +46,7 @@ function Form() {
                 </select>
             </div>
             <div className='text-gray3'>
-                <h4 className='text-[3vw] sm:text-[.7vw] mb-[.4vw]'>What's on your mind</h4>
+                <h4 className='text-[3vw] sm:text-[.7vw] mb-[2vw] sm:mb-[.4vw]'>What's on your mind</h4>
                 <textarea
                     name="message"
                     id="message"
