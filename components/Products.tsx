@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Product from './Product'
-import Image from 'next/image'
+import Image from 'next/image';
+import { motion } from 'framer-motion';
 
 function Products() {
     const data = [
@@ -66,7 +67,7 @@ function Products() {
             className='absolute top-0 w-full 
             h-full pointer-events-none'
         >
-            <div 
+            <motion.div 
                 className='absolute w-[24vw] h-[16vw] 
                 bg-gray3 left-[45%] -translate-x-1/2 
                 overflow-hidden rounded-xl'
@@ -81,7 +82,7 @@ function Products() {
                         muted
                     /> 
                 ))}              
-            </div>
+            </motion.div>
         </div> 
     </div>
   )
