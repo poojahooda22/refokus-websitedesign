@@ -18,7 +18,8 @@ function Cards() {
                     toptitle='Get In Touch' 
                     toptitle2="Let's get to it, together."
                     start={true}
-                    para={false}              
+                    para={false}
+                    hover={true}              
                 />
             </div>
             <div 
