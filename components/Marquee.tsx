@@ -8,7 +8,7 @@ function Marquee({imagesurl}: {imagesurl: any}) {
             <motion.div 
                 initial={{ x: 0}}
                 animate={{ x: "-100%"}}
-                transition={{ease: 'linear'}}
+                transition={{ease: 'linear', duration: 10, repeat: Infinity, repeatType: 'loop'}}
                 className='flex flex-shrink-0 gap-[10vw] sm:gap-[6vw]'>
                 {imagesurl.map((url: string) => <Image width={1000} height={100}  src={url} className='w-[20vw] sm:w-[6vw] flex-shrink-0' alt=""/>)}
             </motion.div>
