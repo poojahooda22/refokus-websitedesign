@@ -58,7 +58,7 @@ function Products() {
 
     const [pos, setPos] = useState(0);
     const mover = (val: any) => {
-        setPos(val * 23);
+        setPos(val * 16);
     }
 
   return (
@@ -72,16 +72,16 @@ function Products() {
         >
             <motion.div 
                 initial={{ y:  pos, x: '-50%'}}
-                animate={{ y: pos + 'rem'}}
+                animate={{ y: pos + 'vw'}}
                 className='absolute w-[24vw] h-[16vw] 
                 bg-gray3 left-[45%] -translate-x-1/2 
                 overflow-hidden rounded-xl'
             >   
                 {images.map((elem, index) => (
-                    <div key={index}>
+                    <div key={index} className='w-full overflow-hidden'>
                         <video 
                         src={elem}
-                        className='w-[100%] h-full object-cover'
+                        className='w-full h-full object-cover'
                         autoPlay
                         loop
                         muted
