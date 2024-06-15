@@ -10,11 +10,11 @@ function ContactForm() {
         <div className='w-full sm:w-1/2'>
           <div className='w-full min-h-[20vw] flex flex-col justify-between '>
             <h1 className='hidden sm:inline-block text-[5vw] uppercase leading-none'>
-              Don't Be Shy with us
+              Don&apos;t Be Shy with us
             </h1>
             <div>
               <p className='sm:w-1/2 sm:text-[.8vw] tracking-tight mt-[10vw] sm:mt-0'>
-                Don’t like forms? Well, too bad! This one is connected 
+                Don&apos;t like forms? Well, too bad! This one is connected 
                 to our CRM and makes everything 
                 easier. Ok ok... here we go:
               </p>
