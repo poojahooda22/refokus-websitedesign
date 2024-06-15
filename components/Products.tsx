@@ -80,7 +80,7 @@ function Products() {
                 {images.map((elem, index) => (
                     <motion.div key={index} 
                         animate={{ y: -pos + `vw`}}
-                        className='w-full overflow-hidden'>
+                        className='w-full h-full overflow-hidden'>
                         <video 
                         src={elem}
                         className='w-full h-full object-cover'
