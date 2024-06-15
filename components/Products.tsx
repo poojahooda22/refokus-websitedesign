@@ -68,7 +68,7 @@ function Products() {
             h-full pointer-events-none'
         >
             <motion.div 
-                initial={{ y:  pos}}
+                initial={{ y:  pos, x: '-50%'}}
                 className='absolute w-[24vw] h-[16vw] 
                 bg-gray3 left-[45%] -translate-x-1/2 
                 overflow-hidden rounded-xl'
