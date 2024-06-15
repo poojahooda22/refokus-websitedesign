@@ -79,7 +79,7 @@ function Products() {
             >   
                 {images.map((elem, index) => (
                     <motion.div key={index} 
-                        animate={{ y: pos}}
+                        animate={{ y: -pos + 'vw'}}
                         className='w-full overflow-hidden'>
                         <video 
                         src={elem}
