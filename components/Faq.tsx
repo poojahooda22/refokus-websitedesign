@@ -24,20 +24,20 @@ function Faq() {
     
 
   return (
-    <div>
+    <div className=''>
         {data.map((item, index) => (
             <div key={index}
                 onClick={toogleExpand} 
-                className='w-full  cursor-pointer py-[1vw]
+                className='w-full  cursor-pointer sm:py-[1vw] py-[4vw]
                 font-regular border-b-[1px] border-gray2'
             >
                 <div className='flex items-center justify-between'>
-                    <h4 className=' sm:text-[.9vw]'>{item.title}</h4>
+                    <h4 className='text-[3.5vw] sm:text-[.9vw]'>{item.title}</h4>
                     <span className='text-[6vw] sm:text-[2vw] text-gray2'>
                         {expand ? '-' : '+'}
                     </span>
                 </div>            
-                { expand && <div className='sm:text-[.8vw] font-normal'>
+                { expand && <div className='text-[3vw] sm:text-[.8vw] font-normal'>
                 {item.desc}</div>}    
             </div>
         ))} 
