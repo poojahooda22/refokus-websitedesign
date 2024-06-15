@@ -33,7 +33,7 @@ function Form() {
                 />
             </div>
             <div className='text-gray3'>
-                <h4 className='text-[.7vw] mb-[.4vw]'>Budget</h4>
+                <h4 className='text-[.7vw] mb-[.4vw]'>Your budget</h4>
                 <select
                     name="budget"
                     id="budget"   
@@ -50,22 +50,21 @@ function Form() {
                 <textarea
                     name="message"
                     id="message"
-                    cols={30}
+                    cols={20}
                     rows={10}
                     className='w-full bg-gray4 p-4 rounded-xl'
                     placeholder='Message'
                 ></textarea>
-            </div>
-
-            <button 
-                className='text-[3vw] sm:text-[.8vw]
-                py-[3vw] px-[5vw] sm:px-[1.3vw] mt-[4vw]
-                sm:py-[.5vw] rounded-full sm:mt-[1.5vw] 
-                border-[1px] border-secondary'
-              >
-                Send Message  
-              </button>   
-        </div>    
+            </div> 
+        </div> 
+        <button 
+            className='text-[3vw] sm:text-[.8vw]
+            py-[3vw] px-[5vw] sm:px-[1.3vw] mt-[4vw]
+            sm:py-[.5vw] rounded-full sm:mt-[1.5vw] 
+            border-[1px] border-secondary'
+        >
+            Send Message  
+        </button>      
     </div>
   )
 }
