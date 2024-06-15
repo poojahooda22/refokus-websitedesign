@@ -55,7 +55,7 @@ function Products() {
         'https://cdn.refokus.com/Singularity%20Promo%204_3%202024.webm'
     ]
 
-    const [] = useState(0);
+    const [pos, setPos] = useState(0);
 
   return (
     <div className='hidden sm:block mt-[8vw] relative'>
