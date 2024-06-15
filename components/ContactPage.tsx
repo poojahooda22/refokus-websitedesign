@@ -13,7 +13,7 @@ function ContactForm() {
               Don't Be Shy with us
             </h1>
             <div>
-              <p className='sm:w-1/2 text-[.8vw] tracking-tight'>
+              <p className='sm:w-1/2 sm:text-[.8vw] tracking-tight mt-[10vw] sm:mt-0'>
                 Don’t like forms? Well, too bad! This one is connected 
                 to our CRM and makes everything 
                 easier. Ok ok... here we go:
