@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Product from './Product'
 import Image from 'next/image'
 
@@ -54,6 +54,9 @@ function Products() {
         'https://cdn.refokus.com/website/Maniv-Compressed.mp4',
         'https://cdn.refokus.com/Singularity%20Promo%204_3%202024.webm'
     ]
+
+    const [] = useState(0);
+
   return (
     <div className='hidden sm:block mt-[8vw] relative'>
         {data.map((elem, index) => (
@@ -66,7 +69,7 @@ function Products() {
             <div 
                 className='absolute w-[24vw] h-[16vw] 
                 bg-gray3 left-[45%] -translate-x-1/2 
-                overflow-hidden'
+                overflow-hidden rounded-xl'
             >   
                 {images.map((elem, index) => (
                     <video 
