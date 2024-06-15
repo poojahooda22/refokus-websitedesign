@@ -57,11 +57,14 @@ function Products() {
     ]
 
     const [pos, setPos] = useState(0);
+    const mover = (val: any) => {
+        setPos(val * 23);
+    }
 
   return (
     <div className='hidden sm:block mt-[8vw] relative'>
         {data.map((elem, index) => (
-            <Product key={index} val={elem} />
+            <Product key={index} val={elem} mover={mover} />
         ))} 
         <div 
             className='absolute top-0 w-full 
@@ -69,6 +72,7 @@ function Products() {
         >
             <motion.div 
                 initial={{ y:  pos, x: '-50%'}}
+                animate={{ y: pos + 'rem'}}
                 className='absolute w-[24vw] h-[16vw] 
                 bg-gray3 left-[45%] -translate-x-1/2 
                 overflow-hidden rounded-xl'
