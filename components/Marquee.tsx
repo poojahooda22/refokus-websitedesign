@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 function Marquee({imagesurl, direction}: {imagesurl: any, direction: any}) {
     return (
-        <div className='w-full flex items-center gap-[10vw] sm:gap-[6vw] py-[1.5vw] overflow-hidden'>
+        <div className='w-full flex items-center gap-[10vw] sm:gap-[6vw] py-[2.5vw] sm:py-[1.5vw] overflow-hidden'>
             <motion.div 
                 initial={{ x: direction === 'left' ? '0' : '-100%'}}
                 animate={{ x: direction === 'left' ? '-100%' : '0'}}
