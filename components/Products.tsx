@@ -78,17 +78,16 @@ function Products() {
                 overflow-hidden rounded-xl'
             >   
                 {images.map((elem, index) => (
-                    <div>
-                        
-                    </div>
-                    <video 
-                        key={index}
+                    <div key={index}>
+                        <video 
                         src={elem}
                         className='w-[100%] h-full object-cover'
                         autoPlay
                         loop
                         muted
-                    /> 
+                        />
+                    </div>
+                     
                 ))}              
             </motion.div>
         </div> 
