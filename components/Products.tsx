@@ -64,7 +64,7 @@ function Products() {
   return (
     <div className='hidden sm:block mt-[8vw] relative'>
         {data.map((elem, index) => (
-            <Product key={index} val={elem} mover={mover} />
+            <Product key={index} val={elem} mover={mover} count={index}  />
         ))} 
         <div 
             className='absolute top-0 w-full 
@@ -78,6 +78,9 @@ function Products() {
                 overflow-hidden rounded-xl'
             >   
                 {images.map((elem, index) => (
+                    <div>
+                        
+                    </div>
                     <video 
                         key={index}
                         src={elem}
