@@ -73,7 +73,7 @@ function Products() {
             <motion.div 
                 initial={{ y:  pos, x: '-50%'}}
                 animate={{ y: pos + `vw`}}
-                transition={{ease: [0.76, 0, 0, 0.24, 1]}}
+                transition={{ease: [0.76, 0, 0, 0.24, 1], duration: .6}}
                 className='absolute w-[24vw] h-[16vw] 
                 bg-gray3 left-[45%] -translate-x-1/2 
                 overflow-hidden rounded-2xl'
