@@ -2,8 +2,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 
-function Card({width, toptitle, toptitle2, start, para}: 
-    {width: string, toptitle: string, toptitle2?: string, start?: boolean, para?: boolean,}
+
+function Card({width, toptitle, toptitle2, start, para, hover="false"}: 
+    {width: string, toptitle: string, toptitle2?: string, start?: boolean, para?: boolean, hover?: boolean}
     ) {
   return (
     <div 
