@@ -28,7 +28,7 @@ function ContactForm() {
               </button>
             </div>  
           </div>
-          <div className=' mt-[6vw]'>
+          <div className='mt-[10vw] sm:mt-[6vw]'>
             <Faq /> 
           </div>
         </div>
