@@ -72,8 +72,7 @@ function Card({width, toptitle, toptitle2, start, para, hover="false"}:
                             Contact us
                         </button>
                     </Link>
-                </>               
-     
+                </>                    
             }
             {
                 para &&  
