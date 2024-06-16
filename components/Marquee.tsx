@@ -25,7 +25,7 @@ function Marquee({imagesurl, direction}: {imagesurl: any, direction: any}) {
             </motion.div>
 
             
-            
+          
         </div>
     )
 }
