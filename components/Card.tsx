@@ -6,7 +6,8 @@ import { motion } from 'framer-motion'
 function Card({width, toptitle, toptitle2, start, para, hover="false"}: 
     {width: string, 
         toptitle: string, 
-        toptitle2?: string, start?: boolean, para?: boolean, hover?: boolean}
+        toptitle2?: string, 
+        start?: boolean, para?: boolean, hover?: boolean}
     ) {
   return (
     <motion.div 
