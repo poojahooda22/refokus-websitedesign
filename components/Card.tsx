@@ -8,7 +8,8 @@ function Card({width, toptitle, toptitle2, start, para, hover="false"}:
         toptitle: string, 
         toptitle2?: string, 
         start?: boolean, 
-        para?: boolean, hover?: boolean}
+        para?: boolean, 
+        hover?: boolean}
     ) {
   return (
     <motion.div 
