@@ -73,7 +73,7 @@ function Card({width, toptitle, toptitle2, start, para, hover="false"}:
                         </button>
                     </Link>
                 </>               
-        
+      
             }
             {
                 para &&  
