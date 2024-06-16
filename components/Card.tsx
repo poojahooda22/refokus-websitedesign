@@ -27,7 +27,7 @@ function Card({width, toptitle, toptitle2, start, para, hover="false"}:
             <div 
                 className='flex items-center 
                 justify-between mb-[1vw]'
-                >
+            >
                 <p className='text-[3vw] sm:text-[.7vw]'>
                     {toptitle}
                 </p>
