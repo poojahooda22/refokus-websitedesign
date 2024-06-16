@@ -30,7 +30,7 @@ function Card({width, toptitle, toptitle2, start, para, hover="false"}:
             >
                 <p
                     className='text-[3vw] 
-                sm:text-[.7vw]'>
+                    sm:text-[.7vw]'>
                     {toptitle}
                 </p>
                 <Image src='/arrow.svg' 
