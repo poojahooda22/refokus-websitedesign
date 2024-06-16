@@ -28,7 +28,8 @@ function Card({width, toptitle, toptitle2, start, para, hover="false"}:
                 className='flex items-center 
                 justify-between mb-[1vw]'
             >
-                <p className='text-[3vw] sm:text-[.7vw]'>
+                <p className='text-[3vw] 
+                sm:text-[.7vw]'>
                     {toptitle}
                 </p>
                 <Image src='/arrow.svg' 
