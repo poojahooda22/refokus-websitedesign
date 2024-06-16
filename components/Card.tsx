@@ -38,7 +38,8 @@ function Card({width, toptitle, toptitle2, start, para, hover="false"}:
                     width={20} 
                     height={20} 
                     alt="" 
-                    className='w-[4vw] sm:w-[1vw]' 
+                    className='w-[4vw] 
+                    sm:w-[1vw]' 
                 />
             </div>
             <div className='w-1/2 pt-[2vw] sm:pt-0'>
