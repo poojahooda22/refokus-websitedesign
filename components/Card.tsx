@@ -4,7 +4,8 @@ import React from 'react'
 import { motion } from 'framer-motion'
 
 function Card({width, toptitle, toptitle2, start, para, hover="false"}: 
-    {width: string, 
+    {
+        width: string, 
         toptitle: string, 
         toptitle2?: string, 
         start?: boolean, 
