@@ -3,19 +3,19 @@ import Link from 'next/link'
 import React from 'react'
 import { motion } from 'framer-motion'
 
-function Card({width, toptitle, toptitle2, start, para, hover="false"}: 
+function Card({width, toptitle, toptitle2, start, para, hover=false}: 
     {
         width: string, 
         toptitle: string, 
         toptitle2?: string, 
         start?: boolean, 
         para?: string, 
-        hover?: string
+        hover?: boolean
     }
     ) {
   return (
     <motion.div 
-        whileHover={{ backgroundColor: hover  && '#7443ff', padding: '28px'}}
+        whileHover={{ backgroundColor: hover ? '#7443ff' : 'null', padding: '28px'}}
         className={`${width} min-h-[80vw] 
         sm:min-h-[24vw] 
         bg-gray rounded-lg sm:rounded-3xl
