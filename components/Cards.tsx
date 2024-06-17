@@ -11,7 +11,8 @@ function Cards() {
                     toptitle='Up Next: News' 
                     toptitle2='Insights and behind the scenes'
                     start={false} 
-                    para={true}   
+                    para={true}
+                    hover={false}   
                 />
                 <Card 
                     width="sm:w-2/3" 
