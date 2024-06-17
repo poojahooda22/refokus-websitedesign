@@ -9,7 +9,7 @@ function Card({width, toptitle, toptitle2, start, para, hover="false"}:
         toptitle: string, 
         toptitle2?: string, 
         start?: boolean, 
-        para?: boolean, 
+        para?: string, 
         hover?: boolean
     }
     ) {
