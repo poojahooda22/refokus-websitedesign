@@ -6,7 +6,7 @@ import {motion, transform, useMotionValue, useSpring, animate} from 'framer-moti
 
 export default function Index({stickyElement}: any) {
   const [isHovered, setIsHovered] = useState(false);
-  const cursorRef = useRef();
+  const cursorRef = useRef<HTMLDivElement>(null);
   const cursorSize = isHovered ? 60 : 10;
 
   const mouse = {
@@ -26,7 +26,7 @@ export default function Index({stickyElement}: any) {
 
   const rotate = (distance: any) => {
     const angle = Math.atan2(distance.y, distance.x)
-    animate(cursorRef.current, {rotate: `${angle}rad`}, {duration: 0})
+    animate(cursorRef.current, {rotate: `${angle}rad`}, {duration: 0},)
   }
 
   const manageMouseMove = (e: any) => {
@@ -93,8 +93,7 @@ export default function Index({stickyElement}: any) {
         scaleY: scale.y
       }}
       animate={{width: cursorSize, height: cursorSize}}
-    >
-    
+    > 
     </motion.div>
   )
 }
