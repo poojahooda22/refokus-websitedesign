@@ -44,7 +44,7 @@ function Nav() {
                     }
             </div>  
         </div>
-        <Curve />
+      <Curve />
     </motion.div>
   )
 }
