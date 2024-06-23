@@ -61,7 +61,7 @@ export default function Index({stickyElement}: any) {
   const manageMouseOver = () => {
     setIsHovered(true);
   }
-  const manageMouseLeave = e => {
+  const manageMouseLeave = (e: any) => {
     setIsHovered(false);
     animate(cursorRef.current, { scaleX: 1, scaleY: 1 }, {duration: 0.1}, { type: "spring" })
   }
