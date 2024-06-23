@@ -12,7 +12,6 @@ import { usePathname } from 'next/navigation';
 import styles from './style.module.scss';
 import { useRouter } from 'next/navigation'
 
-
 const Header = forwardRef(function Index(props, ref){
     const router = useRouter();
 
