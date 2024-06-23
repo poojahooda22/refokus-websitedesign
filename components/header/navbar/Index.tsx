@@ -43,7 +43,7 @@ function Nav() {
                       })
                     }
             </div>
-            {/* <Footer /> */}
+            {/* <Foote /> */}
         </div>
         <Curve />
     </motion.div>
