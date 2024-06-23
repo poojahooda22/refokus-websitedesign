@@ -36,7 +36,7 @@ function Nav() {
       <div className={styles.body}>
         <div onMouseLeave={() => {setSelectedIndicator(pathname)}} className={styles.nav}>
           <div className={styles.header}>   
-                  </div>
+                </div>
                     {
                       navItems.map( (data, index) => {
                         return <Link key={index} data={{...data, index}} isActive={selectedIndicator == data.href} setSelectedIndicator={setSelectedIndicator}></Link>
