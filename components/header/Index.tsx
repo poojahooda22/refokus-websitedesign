@@ -5,7 +5,7 @@ import Link from 'next/link'
 import React, {useEffect} from 'react'
 // import Button from '../button/Button'
 import { forwardRef } from 'react'
-import { motion, AnimatePresence } from "framer-motion";
+import {  AnimatePresence } from "framer-motion";
 import Navbar from './navbar/Index'
 import Magnetic from '../magnetic/Index';
 import { usePathname } from 'next/navigation';
