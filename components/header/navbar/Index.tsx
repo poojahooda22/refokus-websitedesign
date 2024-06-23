@@ -42,7 +42,7 @@ function Nav() {
                         return <Link key={index} data={{...data, index}} isActive={selectedIndicator == data.href} setSelectedIndicator={setSelectedIndicator}></Link>
                       })
                     }
-            </div>  
+          </div>  
       </div>
       <Curve />
     </motion.div>
