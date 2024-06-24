@@ -153,7 +153,7 @@ function WorkPage() {
             <h1 className='sm:hidden text-[52vw] lg:text-[28vw] -rotate-90 font-medium leading-none absolute -left-1/2 '>work</h1>
           </div>
             
-            {/* <div className='absolute sm:top-0 w-full h-fl'>
+            {/* <div className='absolute sm:top-0 w-full h-f'>
               {images.map((elem, index) => (
                 elem.isActive && (
                   <Image key={index} src={elem.url} alt="" width={1000} height={100}
