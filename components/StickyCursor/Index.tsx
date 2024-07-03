@@ -25,8 +25,10 @@ export default function Index({stickyElement}: any) {
   }
 
   const rotate = (distance: any) => {
-    const angle = Math.atan2(distance.y, distance.x)
-    animate(cursorRef.current, {rotate: `${angle}rad`}, {duration: 0},)
+    const angle = Math.atan2(distance.y, distance.x);
+    if (cursorRef.current) {
+      animate(cursorRef.current, {rotate: `${angle}rad`}, {duration: 0});
+    }
   }
 
   const manageMouseMove = (e: any) => {
@@ -63,7 +65,9 @@ export default function Index({stickyElement}: any) {
   }
   const manageMouseLeave = (e: any) => {
     setIsHovered(false);
-    animate(cursorRef.current, { scaleX: 1, scaleY: 1 }, {duration: 0.1}, { type: "spring" })
+    if (cursorRef.current) {
+      animate(cursorRef.current, { scaleX: 1, scaleY: 1 }, {duration: 0.1});
+    }
   }
 
   useEffect( () => {
