@@ -12,7 +12,11 @@ import { usePathname } from 'next/navigation';
 import styles from './style.module.scss';
 import { useRouter } from 'next/navigation'
 
-const Header = forwardRef(function Index(props, ref){
+interface IndexProps {
+    // Define the properties of IndexProps here
+}
+
+const Header = forwardRef<HTMLDivElement, IndexProps>(function Index(props, ref){
     const router = useRouter();
 
     const data = [
