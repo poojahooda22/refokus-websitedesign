@@ -15,7 +15,7 @@ function Contact() {
     >
       {/* <Cursor stickyElement={stickyElement} />*/}
       <Header/>
-       <ContactForm/>
+      <ContactForm/>
     </div>
   )
 }
