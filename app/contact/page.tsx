@@ -13,7 +13,7 @@ function Contact() {
         className='w-full min-h-[100vh] relative 
       bg-primary text-secondary overflow-hidden'
     >
-      {/* <Cursor stickEn={stickyElem>*/}
+      {/* <Cursor stickEn={stickyEle>*/}
       <Header/>
       <ContactForm/>
     </div>
