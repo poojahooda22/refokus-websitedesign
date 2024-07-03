@@ -14,7 +14,7 @@ function Contact() {
       bg-primary text-secondary overflow-hidden'
     >
       {/* <Cursor stickyElement={stickyElement} />*/}
-       <Header/>
+      <Header/>
        <ContactForm/>
     </div>
   )
