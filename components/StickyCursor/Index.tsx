@@ -33,7 +33,7 @@ export default function Index({stickyElement}: any) {
 
   const manageMouseMove = (e: any) => {
     const { clientX, clientY} = e;
-    const { left, top, width, height } = stickyElement.current.getBoundingClientRect();
+    const { left, top, width, height } = stickyElement.current!.getBoundingClientRect();
 
     const center = {x: left + width / 2, y: top + height / 2};
     
