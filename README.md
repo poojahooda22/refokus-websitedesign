@@ -32,4 +32,3 @@ You can check out [the Next.js GitHub repository]
 
 
 
-Check out our
