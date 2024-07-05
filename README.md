@@ -4,10 +4,6 @@
 
 
 
-npm run dev
-# or
-
-
 
 Open [http://localhost:3000]
 
