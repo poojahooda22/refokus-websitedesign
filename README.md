@@ -6,7 +6,7 @@
 
 
 
-You can start editing the page by modifying
+You can start editing the pag
 
 
 
