@@ -27,5 +27,3 @@ You can check out [the Next.js
 
 
 
-
-
