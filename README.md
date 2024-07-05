@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with
+![Screenshot 2024-07-05 215049](https://github.com/poojahooda22/refokus-websitedesign/assets/91055527/22ef8c53-aa1a-46d8-97e6-e4c5a8a90983)
+This is a [Next.js](https://nextjs.org/) 
 
 
 
