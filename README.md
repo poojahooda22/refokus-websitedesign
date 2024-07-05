@@ -32,4 +32,4 @@ You can check out [the Next.js GitHub repository]
 
 
 
-Check out our [Next.js deployment documentation]
+Check out our
