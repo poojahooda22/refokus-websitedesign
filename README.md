@@ -7,7 +7,7 @@
 
 
 
-![Screenshot 2024-07-05 215446](https://github.com/poojahooda22/refokus-websitedesign/assets/91055527/c2c1d25e-7c87-4601-be9b-9217cb3d4fa4)
+![Screenshot 2024-07-05 220054](https://github.com/poojahooda22/refokus-websitedesign/assets/91055527/b74b99b4-0e40-40ae-b113-e8b35f1f6580)
 
 
 
