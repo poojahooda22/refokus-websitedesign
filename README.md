@@ -6,7 +6,7 @@
 
 
 
-You can start editing the page by modifying `app/page.tsx`. The page
+You can start editing the page by modifying `app/page.tsx`.
 
 
 
