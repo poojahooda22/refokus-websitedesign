@@ -17,7 +17,7 @@ function Work() {
       {/*<Cursor stickyElement={stickyEleme}/> */}
       <Header/>
       <WorkPage/>
-        <Stripes padding="py-[0vw]" />
+      <Stripes padding="py-[0vw]" />
         <Products/>
         <Marquees/>
         <Cards/>
