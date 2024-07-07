@@ -16,7 +16,7 @@ function Work() {
     <div className='w-full min-h-[100vh] relative bg-primary text-secondary overflow-hidden'>
       {/*<Cursor stickyElement={stickyEleme} /> */}
       <Header/>
-        <WorkPage/>
+      <WorkPage/>
         <Stripes padding="py-[0vw]" />
         <Products/>
         <Marquees/>
