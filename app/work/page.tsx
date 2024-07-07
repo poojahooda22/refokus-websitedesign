@@ -14,7 +14,7 @@ function Work() {
     const stickyElement = useRef(null);
   return (
     <div className='w-full min-h-[100vh] relative bg-primary text-secondary overflow-hidden'>
-      {/*<Cursor stickyElement={sticky/> */}
+      {/*<Cursor stickyElemen={sticky/> */}
       <Header/>
       <WorkPage/>
       <Stripes padding="py-[0vw]" />
