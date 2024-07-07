@@ -18,7 +18,7 @@ function Work() {
       <Header/>
       <WorkPage/>
       <Stripes padding="py-[0vw]" />
-        <Products/>
+      <Products/>
         <Marquees/>
         <Cards/>
     </div>
