@@ -2,7 +2,8 @@ import Image from 'next/image'
 import React from 'react'
 
 function Button({text, border, borderCol, bg, txt}: 
-  {text: string, 
+  {
+    text: string, 
     border?: string, borderCol?: string, bg?: string, txt?: string}) 
   {
   return (
