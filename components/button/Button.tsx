@@ -6,7 +6,8 @@ function Button({text, border, borderCol, bg, txt}:
     text: string, 
     border?: string, 
     borderCol?: string, 
-    bg?: string, txt?: string}) 
+    bg?: string, 
+    txt?: string}) 
   {
   return (
     <div className={`w-fit px-[6vw] py-[3vw] sm:px-[1vw] sm:py-[.3vw] ${bg} ${border} ${borderCol}
