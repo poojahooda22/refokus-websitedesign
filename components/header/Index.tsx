@@ -72,7 +72,7 @@ const Header = forwardRef<HTMLDivElement, IndexProps>(function Index(props, ref)
                         })}
                     </div>   
                 </div>
-                {/* <<Butn/</div*/}
+                {/* <<Bun/</div*/}
                 <Magnetic>
                     <div onClick={() => {setIsActive(!isActive)}} className={`${styles.burger} ${isActive ? styles.burgerActive : ""}`}>
                         <div ref={ref} className={styles.bounds}></div>
