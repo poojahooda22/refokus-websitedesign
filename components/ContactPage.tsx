@@ -8,7 +8,8 @@ function ContactForm() {
       <div 
         className='max-w-screen-xl mx-auto pt-[8vw] 
         px-[5vw] sm:px-0 mt-[10vw] 
-        sm:mt-[0vw] flex flex-col-reverse sm:flex sm:flex-row justify-between'
+        sm:mt-[0vw] flex flex-col-reverse 
+        sm:flex sm:flex-row justify-between'
       >
         <div className='w-full sm:w-1/2'>
           <div className='w-full min-h-[20vw] flex flex-col justify-between '>
