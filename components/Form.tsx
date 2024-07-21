@@ -23,7 +23,7 @@ function Form() {
                     <h4 
                         className='text-[3vw] sm:text-[.7vw] 
                         mb-[2vw] sm:mb-[.4vw]'
-                        >
+                    >
                         Company
                     </h4>
                     <input
