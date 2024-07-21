@@ -76,7 +76,7 @@ function Form() {
                     mb-[2vw] sm:mb-[.4vw]'
                 >
                     What&apos;s on your mind
-                    </h4>
+                </h4>
                 <textarea
                     name="message"
                     id="message"
