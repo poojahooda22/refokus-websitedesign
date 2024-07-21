@@ -41,7 +41,7 @@ const Header = forwardRef<HTMLDivElement, IndexProps>(function Index(props, ref)
     }, [pathname1])
 
     return (
-        <div className='w-screen flex  justify-center'>
+        <div className='w-screen flex  justify-center z-[9]'>
             <div 
                 className={`${styles.header} max-w-screen-xl mx-auto py-[2vw] 
                      px-[5vw] sm:py-[1vw] sm:px-[5vw] lg:px-[5vw] xl:px-0`
