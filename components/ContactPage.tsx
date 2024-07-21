@@ -6,7 +6,7 @@ function ContactForm() {
   return (
     <div className='w-full relative'>
       <div 
-        className=' max-w-screen-xl mx-auto pt-[8vw] px-[5vw] sm:px-0 mt-[10vw] 
+        className='max-w-screen-xl mx-auto pt-[8vw] px-[5vw] sm:px-0 mt-[10vw] 
         sm:mt-[0vw]  flex flex-col-reverse sm:flex sm:flex-row justify-between'
       >
         <div className='w-full sm:w-1/2'>
