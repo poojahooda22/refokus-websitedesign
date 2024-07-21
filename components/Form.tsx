@@ -54,7 +54,8 @@ function Form() {
                 <h4 className='text-[3vw] sm:text-[.7vw] 
                     mb-[2vw] sm:mb-[.4vw]'
                 >
-                    Your budget</h4>
+                    Your budget
+                    </h4>
                 <select
                     name="budget"
                     id="budget"   
