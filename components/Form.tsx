@@ -41,7 +41,7 @@ function Form() {
                     mb-[2vw] sm:mb-[.4vw]'
                 >
                     Email address
-                    </h4>
+                </h4>
                 <input
                     type="text"
                     placeholder=''
