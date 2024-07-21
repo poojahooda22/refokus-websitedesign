@@ -4,7 +4,8 @@ function Form() {
   return (
     <div 
         className='w-[100%] min-h-[20vw] bg-black rounded-xl 
-        px-[4vw] py-[4vw] sm:py-[1.5vw] sm:px-[1.5vw]'>
+        px-[4vw] py-[4vw] sm:py-[1.5vw] sm:px-[1.5vw]'
+        >
         <div className=' flex flex-col gap-[5vw] sm:gap-[1vw]'>
             <div className='flex gap-[4vw] sm:justify-between text-gray3'>
                 <div>
