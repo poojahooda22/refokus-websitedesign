@@ -46,7 +46,8 @@ function Form() {
                 <input
                     type="text"
                     placeholder=''
-                    className='w-full bg-gray4 p-4 rounded-xl' 
+                    className='w-full bg-gray4 
+                    p-4 rounded-xl' 
                 />
             </div>
             <div className='text-gray3'>
