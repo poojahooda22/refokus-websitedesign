@@ -51,7 +51,8 @@ function Form() {
                 />
             </div>
             <div className='text-gray3'>
-                <h4 className='text-[3vw] 
+                <h4 
+                className='text-[3vw] 
                     sm:text-[.7vw] 
                     mb-[2vw] sm:mb-[.4vw]'
                 >
