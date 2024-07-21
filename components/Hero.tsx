@@ -30,7 +30,7 @@ function Hero() {
             md:text-[5vw] md:leading-[8vw]
             lg:text-[8vw] lg:leading-[7vw] 
             xl:text-[6vw] xl:leading-[5vw]  
-            tracking-tighter'
+            tracking-tighter '
           >
             <h1>We</h1>
             <h1>make</h1>
