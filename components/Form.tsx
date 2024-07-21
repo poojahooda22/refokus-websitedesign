@@ -10,7 +10,8 @@ function Form() {
             <div className='flex gap-[4vw] sm:justify-between text-gray3'>
                 <div>
                     <h4 className='text-[3vw] sm:text-[.7vw] mb-[2vw] sm:mb-[.4vw]'>
-                        Full Name</h4>
+                        Full Name
+                        </h4>
                     <input
                         type="text"
                         placeholder=""
