@@ -75,7 +75,8 @@ function Form() {
                     className='text-[3vw] sm:text-[.7vw] 
                     mb-[2vw] sm:mb-[.4vw]'
                 >
-                    What&apos;s on your mind</h4>
+                    What&apos;s on your mind
+                    </h4>
                 <textarea
                     name="message"
                     id="message"
