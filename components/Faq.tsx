@@ -28,7 +28,7 @@ function Faq() {
         {data.map((item, index) => (
             <div key={index}
                 onClick={toogleExpand} 
-                className='w-full  cursor-pointer sm:py-[1vw] py-[4vw]
+                className='w-full cursor-pointer sm:py-[1vw] py-[4vw]
                 font-regular border-b-[1px] border-gray2'
             >
                 <div className='flex items-center justify-between'>
