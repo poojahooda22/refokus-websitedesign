@@ -8,7 +8,7 @@ import gsap, { Power2, Power3 } from 'gsap'
 function WorkPage() {
 
   // const images = [
-  //   'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef09178195ce0073e38f3_Refokus%20Tools-1.png',
+  //   'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef09178195ce0073e38f3_Refokus',
 
   // ]
 
