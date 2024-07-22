@@ -12,7 +12,7 @@ function WorkPage() {
   //   'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0accfe1b3e66bc55462_Refokus%20Tools.png',
   //   'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0acbc45cb2f4fc5c6b2_Yahoo.png',
   //   'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0ac7e7179d210dc41f0_Summon.png',
-  //   'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0af108a465002975acd_Showca
+  //   'https://assets-global.website-files.com/6334198f239547d0f9cd84b3/634ef0af108a465002975ac
   // ]
 
   // const [images, setImages] = useState(
