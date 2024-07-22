@@ -8,7 +8,7 @@ import gsap, { Power2, Power3 } from 'gsap'
 function WorkPage() {
 
   // const images = [
-  //   'https://assets-global.websit,
+  //   'https://assets-global.we,
   // ]
 
   // const [images, setImages] = useState(
