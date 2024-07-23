@@ -8,7 +8,6 @@ import gsap, { Power2, Power3 } from 'gsap'
 function WorkPage() {
 
  
-
   // const [images, setImages] = useState(
   //   [
   //     {
