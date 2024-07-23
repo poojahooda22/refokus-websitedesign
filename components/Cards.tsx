@@ -5,7 +5,8 @@ function Cards() {
   return (
     <div className='w-full py-[4vw] sm:py-[2vw]'>
         <div className='px-[5vw] sm:px-0 max-w-screen-xl mx-auto'>
-            <div className='flex flex-col-reverse 
+            <div 
+                className='flex flex-col-reverse 
                 gap-8 sm:flex sm:flex-row sm:gap-4'
             >
                 <Card width="sm:w-1/3" 
